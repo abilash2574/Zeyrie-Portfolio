@@ -11,7 +11,7 @@ languages:
     languageName: English
     weight: 1
 
-# Control TOC depth
+# Control TOC[Table of Contents] depth
 markup:
   tableOfContents:
     startLevel: 2
@@ -49,3 +49,11 @@ params:
 
   # To be able to write blogs in our site we must enable it.
   enableBlogPost: true
+
+  # If we want to show the Table of Contents in blog post,
+  # we must enable it as follows
+  enableTOC: true
+
+  # To allow users to improve the blogs, we can redirect them to
+  # our github repository page of corresponding blog.
+  gitRepo: <your site's Github repo URL>

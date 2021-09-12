@@ -1,0 +1,73 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.E in Computer Science & Engineering
+  icon: fa-graduation-cap
+  timeframe: 2018-2022[current]
+  institution:
+    name: University College Of Engineering, Anna University
+    url: "https://www.aucermd.edu.in/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 8.0
+    outOf: 10
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2016-2018
+  institution:
+    name: Kuriakose Elias English Medium School
+    url: "http://keschools.org/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 8.5
+    outOf: 10
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 2014-2016
+  institution:
+    name: Nirmala Matha Convent School
+    url: "http://www.nirmalamathaicsemalampuzha.com/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 7.5
+    outOf: 10

@@ -13,7 +13,7 @@ section:
 skills:
 - name: Python
   logo: "/images/sections/skills/python.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable python program. Possess average knowledge on Machine Learning packages using Python"
+  summary: "Using as the main language for project development. Capable of writing scalable, testable, and maintainable python program. Have good knowledge on Machine Learning Python packages"
   url: "https://www.python.org/"
 
 - name: C/C++
@@ -26,4 +26,17 @@ skills:
   summary: "A Linux Enthuciast. Using as man Operating System. Capable of writing bash/shell scripts. Arch Linux User."
 
 - name: Git
-  logo: ""
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git based development. Mostly, use GitLab. Also have experice in working with GitHub."
+
+- name: Java
+  logo: "/images/sections/skills/java.png"
+  summary: "Capble of writing and debugging Java Programs. Have an average knowledge to work with OOPs concepts"
+
+- name: SQL
+  logo: "/images/sections/skills/mysql.png"
+  summary: "Capable of writing quries in SQL. Creating and managing SQL database."
+
+- name: Javascript/CSS/HTML
+  logo: "/images/sections/skills/javascript.png"
+  summary: "Capable of understanding Front-End of Web Development. Writing Markup Langage and Programming in JavaScript."

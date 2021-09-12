@@ -1,0 +1,22 @@
+# some information about you
+name: "Abilash S"
+nickname: "Zeyrie"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "abilash2574@gmail.com"
+  phone: "+91 63825 70929"
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Linux Enthuciast
+  - I love Linux
+  - I am a Student
+  - I learn Data Science
+  - I am a youtube creator, and a blogger
+
+
+# Add more if you need it

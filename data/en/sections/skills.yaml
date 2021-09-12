@@ -21,6 +21,9 @@ skills:
   summary: "Capable of writing and debugging C programs. Have an core understanding of C Programming Language"
   url: "https://www.cplusplus.com/"
 
-- name: Cloud Computing
+- name: Linux
   logo: "/images/sections/skills/linux.png"
-  summary: "A Linux Enthuciast. Capable of working solely on Linux Environment and to perform system management. Arch Linux User."
+  summary: "A Linux Enthuciast. Using as man Operating System. Capable of writing bash/shell scripts. Arch Linux User."
+
+- name: Git
+  logo: ""

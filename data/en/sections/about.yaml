@@ -1,32 +1,55 @@
 # section information
 section:
-  name: About
-  id: about
-  enable: true
-  weight: 1
-  showOnNavbar: true
-  template: sections/about.html
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
 
 # your designation - P[Software Engineer]
 designation: Student
 # your company information
 company:
-  name: Anna Universit.
+  name: Anna University
   url: "https://www.annauniv.edu"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate Computer Engineering Student on my Final year of Graduation. I am also a Linux Enthuciast, and have been using Linux for past three years. Sometimes, I work on some fun projects such as
+summary: 'I am a passionate Computer Engineering Student on my Final year of Graduation. I am also a Linux Enthuciast,
+and have been using Linux for past three years. I have worked on some fun projects such as
 Attendance Systems, ML Algorithm projects, Linux tweaking etc.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UCKNl6QmOIfvAFwLgrF3SW7A"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/abilash-s-725a13184/"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/i_am_an_arch_user/"
+
+- name: GitLab
+  icon: "fab fa-gitlab"
+  url: "https://www.github.com/example"
+
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/example"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "abilash2574@gmail.com"
+
+
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
@@ -38,3 +61,6 @@ softSkills:
 - name: Team Work
   percentage: 90
   color: yellow
+- name: Hard Working
+  percentage: 85
+  color: green

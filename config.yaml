@@ -36,3 +36,6 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
+
+  # This Puts the background, dir is assets/Images
+  background: "images/dark_forest_bg.jpg"

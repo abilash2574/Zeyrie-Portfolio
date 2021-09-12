@@ -48,4 +48,4 @@ params:
     favicon: images/favicon.png
 
   # To be able to write blogs in our site we must enable it.
-  
+  enableBlogPost: true

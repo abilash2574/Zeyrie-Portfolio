@@ -3,3 +3,7 @@ copyright: © 2021 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Portfolio and personal blog of Zeyrie.
+
+customMenus:
+- name: Blog Post
+  url: https://blogs.zeyrie.in

@@ -27,15 +27,15 @@ params:
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
   # specify whether you want to write some blog posts or not
-  enableBlogPost: true
+  enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
-  enableTOC: true
+  enableTOC: false
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
 
   # This Puts the background, dir is assets/Images
   background: "images/dark_forest_bg.jpg"
@@ -48,11 +48,11 @@ params:
     favicon: images/favicon.png
 
   # To be able to write blogs in our site we must enable it.
-  enableBlogPost: true
+  enableBlogPost: false
 
   # If we want to show the Table of Contents in blog post,
   # we must enable it as follows
-  enableTOC: true
+  enableTOC: false
 
   # To allow users to improve the blogs, we can redirect them to
   # our github repository page of corresponding blog.
